@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar kiri */
+.left-pane {
+  width: 25%;
+  background-color: #00caff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.left-pane img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+/* Konten kanan */
+.right-pane {
+  width: 75%;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.right-pane h2 {
+  color: #a855f7;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.right-pane p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+button.connect-button {
+  background-color: #a855f7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.project-explorer {
+  margin-bottom: 30px;
+}
+
+.generated-code {
+  background-color: #f3f3f3;
+  border-left: 6px solid #a855f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.generated-code::before {
+  content: "🐍 Final Generated Python Code";
+  display: block;
+  font-weight: bold;
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button.regenerate-button,
+button.toNext-button {
+  background-color: #9333ea;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button.toNext-button {
+  background-color: #2563eb;
+}

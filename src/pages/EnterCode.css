@@ -1,0 +1,66 @@
+/* src/pages/EnterCode.css */
+.code-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.code-left {
+  flex: 1;
+  background-color: #00cfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-image {
+  width: 320px;
+  border-radius: 20px;
+}
+
+.code-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  color: #b88eff;
+}
+
+.code-right h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.code-right p {
+  font-size: 16px;
+  color: #c7aaff;
+  margin-bottom: 30px;
+}
+
+.code-right input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.code-button {
+  background-color: #c68cff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.code-button:hover {
+  background-color: #a569e0;
+}

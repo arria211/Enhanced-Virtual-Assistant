@@ -1,0 +1,59 @@
+/* src/pages/ThankYou.css */
+.thankyou-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.thankyou-left {
+  background-color: #00cfff;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-image {
+  width: 320px;
+  max-height: 90%;
+  border-radius: 20px;
+}
+
+.thankyou-right {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #b88eff;
+  text-align: center;
+}
+
+.thankyou-right h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.thankyou-right p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #c5aaff;
+}
+
+.thankyou-button {
+  background-color: #c68cff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.thankyou-button:hover {
+  background-color: #a569e0;
+}
